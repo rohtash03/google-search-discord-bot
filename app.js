@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
-const config = require('./config/config.json');
+const config = require('./config/config.js');
 const {
     messageConsumer,
 } = require('./modules/botConsumer/botMessageHandler/botMessage.consumer');
 
 
 // setup mongo connection to store recent search data
-const { mongoDbKeys } = require('./config/config.json');
+const { mongoDbKeys } = require('./config/config.js');
 const { mongoInit } = require('./dbModels/connection');
 mongoInit({ db: mongoDbKeys });
 

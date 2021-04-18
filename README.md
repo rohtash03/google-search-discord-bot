@@ -14,7 +14,7 @@
  - Clone the project ``` git clone https://github.com/rohtash03/google-search-discord-bot.git ```
  - Install dependencies inside repo folder ``` npm i ```
  - Start mongodb server on localhost.
- - Change credentials in config/config.json file. 
+ - Change credentials in config/config.js file. 
  - Start bot with ``` npm run start ```
  - Use ``` npm run test``` - to start test run.
 

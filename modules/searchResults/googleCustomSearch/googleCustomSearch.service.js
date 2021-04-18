@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const {
     googleSearch: { url }
-} = require('../../../config/config.json');
+} = require('../../../config/config.js');
 
 const {
     GOOGLE_SEARCH_RESULTS: { RESULTS_LIMIT },
