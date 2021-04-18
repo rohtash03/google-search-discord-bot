@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "mocha --exit --recursive './modules/**/*test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "discord.js": "^12.5.3",
+    "mocha": "^8.3.2",
+    "mongoose": "^5.12.4",
+    "puppeteer": "^8.0.0"
+  }
+}

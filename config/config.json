@@ -1,0 +1,13 @@
+{
+    "botToken": "YOUR BOT TOKEN",
+    "googleSearch": {
+        "url": "https://google.com"
+    },
+    "mongoDbKeys": {
+        "host": "localhost",
+        "port": "27017",
+        "database": "test",
+        "username": "",
+        "password": ""
+    }
+}
