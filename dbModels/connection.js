@@ -20,9 +20,7 @@ function validateConfig(config) {
 function mongoInit(config) {
   validateConfig(config);
   const { db } = config;
-  const connectionString = `mongodb://${encodeURIComponent(db.host)}:${
-    db.port
-  }/${encodeURIComponent(db.database)}`;
+  const connectionString = `mongodb+srv://${encodeURIComponent(db.host)}/${encodeURIComponent(db.database)}`;
 
   const options = {
     user: db.username,
